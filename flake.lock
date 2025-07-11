@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "moonwalk-hugo": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1749847520,
+        "narHash": "sha256-xC0poQuh0ZPB0X4R2KPSDtFzL0a7x7q96hwXvCaFDrw=",
+        "owner": "arkhamcookie",
+        "repo": "moonwalk-hugo",
+        "rev": "fb5b2ed7f0d33d19e9d7681465052741d9a84428",
+        "type": "github"
+      },
+      "original": {
+        "owner": "arkhamcookie",
+        "repo": "moonwalk-hugo",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1751949589,
+        "narHash": "sha256-mgFxAPLWw0Kq+C8P3dRrZrOYEQXOtKuYVlo9xvPntt8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "9b008d60392981ad674e04016d25619281550a9d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "moonwalk-hugo": "moonwalk-hugo",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
