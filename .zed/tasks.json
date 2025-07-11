@@ -1,0 +1,9 @@
+[
+  {
+    "label": "dev:hugo-server",
+    "command": "hugo",
+    "args": ["server", "-DMO"],
+    "use_new_terminal": true,
+    "reveal": "never"
+  }
+]
